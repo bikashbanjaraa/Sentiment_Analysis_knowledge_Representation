@@ -83,7 +83,7 @@ he LSTM model effectively handles complex sequences and delivers impressive resu
 1.Clone the repository:
 
 ```python
-git clone https://github.com/your-username/sentiment-analysis-webapp.git
+git clone https://github.com/bikashbanjaraa/Sentiment_Analysis_knowledge_Representation.git
     cd sentiment-analysis-webapp
 ```
 
