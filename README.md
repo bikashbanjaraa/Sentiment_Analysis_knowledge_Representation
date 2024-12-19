@@ -61,13 +61,12 @@ from transformers import pipeline
 sentiment_pipeline = pipeline("sentiment-analysis")
 result = sentiment_pipeline("I love this product!")
 ```
-## Approaches
 ## Model Performance
 
 LSTM Accuracy: 97%
 
-    The LSTM model effectively handles complex sequences and delivers impressive results with text classification tasks.
+  The LSTM model effectively handles complex sequences and delivers impressive results with text classification tasks.
 
-    VADER Sentiment Analysis: A traditional approach that works well with shorter texts but might not be as accurate on more nuanced data.
+  VADER Sentiment Analysis: A traditional approach that works well with shorter texts but might not be as accurate on more nuanced data.
 
-    RoBERTa: The pre-trained RoBERTa model performs exceptionally well, and I used it for tasks that require deeper understanding and context. It delivers highly accurate predictions.
+  RoBERTa: The pre-trained RoBERTa model performs exceptionally well, and I used it for tasks that require deeper understanding and context. It delivers highly accurate predictions.
