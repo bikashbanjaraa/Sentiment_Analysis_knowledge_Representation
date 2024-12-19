@@ -64,6 +64,34 @@ result = sentiment_pipeline("I love this product!")
 ## Model Performance
 
 LSTM Accuracy: 97%
-- The LSTM model effectively handles complex sequences and delivers impressive results with text classification tasks.
+
+he LSTM model effectively handles complex sequences and delivers impressive results with text classification tasks.
 - VADER Sentiment Analysis: A traditional approach that works well with shorter texts but might not be as accurate on more nuanced data.
+  - T![1](https://github.com/user-attachments/assets/a24831e7-87a9-4d29-85cb-cd6d8988634f)
 - RoBERTa: The pre-trained RoBERTa model performs exceptionally well, and I used it for tasks that require deeper understanding and context. It delivers highly accurate predictions.
+- comparision of vader and roberta:
+![Screenshot from 2024-12-19 21-37-20](https://github.com/user-attachments/assets/f44444ea-e017-46ef-b4b6-822037d12775)
+
+# Web App
+
+- I have created a Streamlit web app where users can input text and receive sentiment predictions instantly. The app supports  sentiment analysis methodswith LSTM models.
+
+- To run the app, follow the steps in the How to Run section.
+
+# How to Run
+
+1.Clone the repository:
+
+``` git clone https://github.com/your-username/sentiment-analysis-webapp.git
+    cd sentiment-analysis-webapp
+```
+
+2.Install the necessary dependencies:
+```
+pip install -r requirements.txt
+```
+3.Run the Streamlit app:
+
+```streamlit run app.py
+```
+4.Open the web app in your browser to start using the sentiment analysis tool!
