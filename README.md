@@ -64,8 +64,7 @@ result = sentiment_pipeline("I love this product!")
 ## Model Performance
 
 LSTM Accuracy: 97%
-
-  The LSTM model effectively handles complex sequences and delivers impressive results with text classification tasks.
+-** The LSTM model effectively handles complex sequences and delivers impressive results with text classification tasks.
 
   VADER Sentiment Analysis: A traditional approach that works well with shorter texts but might not be as accurate on more nuanced data.
 
