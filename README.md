@@ -14,7 +14,7 @@ This repository contains a sentiment analysis project that uses a variety of tec
 - [Model Performance](#model-performance)
 - [Web App](#web-app)
 - [How to Run](#how-to-run)
-- [License](#license)
+
 
 ## Overview
 
@@ -82,16 +82,18 @@ he LSTM model effectively handles complex sequences and delivers impressive resu
 
 1.Clone the repository:
 
-``` git clone https://github.com/your-username/sentiment-analysis-webapp.git
+```python
+git clone https://github.com/your-username/sentiment-analysis-webapp.git
     cd sentiment-analysis-webapp
 ```
 
 2.Install the necessary dependencies:
-```
+```python
 pip install -r requirements.txt
 ```
 3.Run the Streamlit app:
 
-```streamlit run app.py
+```python
+streamlit run app.py
 ```
 4.Open the web app in your browser to start using the sentiment analysis tool!
