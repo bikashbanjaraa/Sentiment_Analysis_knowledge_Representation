@@ -56,11 +56,11 @@ For more complex sentiment analysis, I used the pre-trained **RoBERTa** model fr
 
 For those who prefer a simpler approach, I have included a **two-line code solution** using Hugging Face's transformer pipeline. This provides an easy and effective way to perform sentiment analysis with minimal code.
 
-```python``
+```python
 from transformers import pipeline
 sentiment_pipeline = pipeline("sentiment-analysis")
 result = sentiment_pipeline("I love this product!")
-
+```
 ## Approaches
 ## Model Performance
 
