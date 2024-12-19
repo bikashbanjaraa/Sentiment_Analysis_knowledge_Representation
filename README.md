@@ -61,7 +61,8 @@ from transformers import pipeline
 sentiment_pipeline = pipeline("sentiment-analysis")
 result = sentiment_pipeline("I love this product!")
 
-# Model Performance
+
+## Model Performance
 
 LSTM Accuracy: 97%
 
